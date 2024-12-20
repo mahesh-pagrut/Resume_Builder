@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+.mainLogo{
+  width: 100px;
+  height: 100px;
+  
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

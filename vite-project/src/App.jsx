@@ -186,10 +186,9 @@ export default function App() {
   return (
     <>
     <div>
-      {/* <img src='../assets/mainLogo/logo.svg'/> */}
     </div>
       <div className="main-container">
-        <header className="primary-header" onClick={() => window.location.reload()}>Mavericks the Ultimate Resume Builder</header>
+        <header className="primary-header" onClick={() => window.location.reload()}> <img className='mainLogo' src='https://i.ibb.co/3k8cNxY/freepik-candid-image-photography-natural-textures-highly-r-43400.png' alt='logo' style={{width:"500px", display:"inline" , marginBottom:'0', margin:'5px', filter:"drop-shadow(1px 1px 0px black)" }}/></header>
         <section className="input-div">
           <button onClick={getPDF}><img src={pdfImg} alt="Adobe for PDF"></img>Download</button>
           <div className="personal-input">

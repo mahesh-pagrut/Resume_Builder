@@ -84,8 +84,8 @@ header {
     place-self:center;
     margin-bottom:-2rem;
     /* background-color: rgb(213, 213, 213); */
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    padding:10px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    /* padding: 10px; */
     width: 100%;
 }
 
@@ -124,7 +124,8 @@ button:active {
     border-radius: 6px;
     font-size: var(--fs-100);
     font-weight: 700;
-    padding: 0.9em 5em;
+    
+    padding: 1.2em 6em;
     cursor:pointer;
 }
 
